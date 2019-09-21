@@ -1,0 +1,34 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<p>
+  <!--label이라는 뜻은 어떤것에 대한이름표다를 명시해주는것이므로 그냥 input앞에 text쓸때는
+    예를들어 text : ________________ 가 있다면  text를 마우스커서로 클릭해도 뒷쪽______
+    즉, 텍스트필드에 마우스커서가 안꿈뻑이지만 label 즉,이름표로 연결시켜주면 text를 마우스
+    커서로 클릭하면 뒤쪽텍스트필드에 마우스커서가 껌뻑인다.큰건아니지만 소소한팁인듯...-->
+<label for="id_txt">text</label>:
+<input id="id_txt" type="text" name="id" value="default value">
+</p>
+
+<p>
+<label for="id_password">password</label>
+<input id="id_password" type="password" name="password" value="default value">
+</p>
+
+<p>
+<label>
+<input type="checkbox" name="color" value="red">붉은색
+<!--checkbox라는것은 말그대로 마우스커서로 클릭해서 체크하는 박스를 gui로 표현하는것이다.
+  여기서 원래는 checkbox를 사용하면 체크하는 박스에만 클릭해야 클릭되지만
+  label 즉, 어떤 텍스트박스에 이이름표를 명시해주면 위에서와같이 텍스트만 눌러도 체크될수있게 만들어준다.-->
+</label>
+</p>
+<!--라벨을 쓰는방식은 위와같이 id값을 일치시켜주는 방법과 또는 <label></label>로 덮어주는 방식이있다.-->
+
+
+  </body>
+</html>

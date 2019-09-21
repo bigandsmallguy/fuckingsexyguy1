@@ -1,0 +1,15 @@
+<!--hidden field gui를 쓰지않고 서버로 내가 원하는자료를 보내고싶을때 사용한다.-->
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <!--form action="주소"로 input type="submit"이 버튼이 되어 text의 사용자입력값을 직접보낼수있다.-->
+    <form action="http://local.php">
+    <input type="text" name="id">
+    <input type="hidden" name="hide" value="egoing">
+    <!--ui가 없지만 웹페이지에서 제출버튼을 누르면 hide=egoing으로 원하는 주소로 hidden값이 자동으로 넘어간다.-->
+    <input type="submit">
+
+  </body>
+</html>
